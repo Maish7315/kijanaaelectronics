@@ -1,0 +1,1104 @@
+import phones from "@/assets/cat-phones.jpg";
+import tvs from "@/assets/cat-tvs.jpg";
+import laptops from "@/assets/cat-laptops.jpg";
+import accessories from "@/assets/cat-accessories.jpg";
+import home from "@/assets/cat-home.jpg";
+import cyber from "@/assets/cat-cyber.jpg";
+import homeElectronicsImg from "@/assets/combo-offer-for-house-hold-items.webp";
+import homeTheaterImg from "@/assets/home_theater.webp";
+import hisenseTvImg from "@/assets/hisense_tv.webp";
+import samsungTvImg from "@/assets/samsung_tv.webp";
+import sonyTvImg from "@/assets/sony_tv.webp";
+import nokia110Img from "@/assets/phones/Nokia-110-Blue-8875-2842.webp";
+import samsungB315Img from "@/assets/phones/SAMSUNG-B315E-PITON-55.webp";
+import itelButtonsImg from "@/assets/phones/itel-buttons.webp";
+import xtigiImg from "@/assets/phones/x-tigi.webp";
+import tecnoImg from "@/assets/tecno.webp";
+import samsungGalaxyImg from "@/assets/samsung_galacy.webp";
+import infinixImg from "@/assets/infinix.webp";
+import iphoneImg from "@/assets/Iphones.webp";
+import tagwoodImg from "@/assets/tagwood.webp";
+import hooferImg from "@/assets/hoofer.webp";
+import amtexImg from "@/assets/amtex.webp";
+import amtecImg from "@/assets/amtec.webp";
+import bluetoothSpeakersImg from "@/assets/Bluetooth-speakers.jpg";
+import stoneSpinSpeakerImg from "@/assets/stone_spin_speaker.webp";
+import apolloSpeakerImg from "@/assets/Appolo_speaker.webp";
+import portableJblImg from "@/assets/portable_jbl.webp";
+import hpLaptop from "@/assets/aerials/HP_laptop.webp";
+import dellLaptop from "@/assets/aerials/Dell_laptop.webp";
+import lenovoLaptopImg from "@/assets/lenovo_laptop.webp";
+import acerLaptopImg from "@/assets/acer_laptop.webp";
+import thinkpadLaptopImg from "@/assets/thinkpad_laptop.webp";
+import hp15NotebookImg from "@/assets/hp-15-notebook-laptop.webp";
+import aerialImg from "@/assets/aerials/aerial.webp";
+import aerial2Img from "@/assets/aerials/Aerial (2).webp";
+import blenderImg from "@/assets/aerials/blender.webp";
+import blender2Img from "@/assets/aerials/blender (2).webp";
+import blender3Img from "@/assets/aerials/blender (3).webp";
+import microwaveImg from "@/assets/aerials/microwave.webp";
+import kettleImg from "@/assets/aerials/kattle.webp";
+import dispenserImg from "@/assets/aerials/dispenser_water.webp";
+import gasBannerImg from "@/assets/aerials/gas_banner.webp";
+import ironBoxImg from "@/assets/aerials/iron_box.webp";
+import tenderWifiImg from "@/assets/aerials/tender_wifi_router.webp";
+import torchImg from "@/assets/aerials/torch.webp";
+import torch2Img from "@/assets/aerials/torch (2).webp";
+
+import cableBlackImg from "@/assets/cables/cable_black.webp";
+import cable3in1Img from "@/assets/cables/3_in_1_cable .webp";
+import cable3in1sImg from "@/assets/cables/3_in_1_cables.webp";
+import cableWhiteAmayaImg from "@/assets/cables/white_amaya_cable.webp";
+import cableAmaya2Img from "@/assets/cables/amaya_cable_2.webp";
+import cableAmayaJpg from "@/assets/cables/amaya_cable.jpg";
+import cableAmayaImg from "@/assets/cables/amaya_cable.webp";
+import cableOraimoWhiteImg from "@/assets/cables/Oraimo_cable_white.webp";
+import cableOraimoImg from "@/assets/cables/oraimo_cable.webp";
+
+import chargerOraimoImg from "@/assets/chargers/oraimo_charger.webp";
+import chargerOraimoWhiteImg from "@/assets/chargers/oraimo_white_charger.webp";
+import chargerAmaya2Img from "@/assets/chargers/amaya_charger (2).webp";
+import chargerAmayaImg from "@/assets/chargers/amaya_charger.webp";
+
+import earphoneBestWirelessImg from "@/assets/earphoes/Best-wireless-earbuds-for-iPhone.webp";
+import earphoneJblPodsImg from "@/assets/earphoes/jbl_pods.webp";
+import earphoneOraimoWhiteImg from "@/assets/earphoes/oraimo_white_earphones.webp";
+import earphoneOraimoImg from "@/assets/earphoes/earphones_oraimo.webp";
+import earphoneAmayaPodsImg from "@/assets/earphoes/amaya_pods.webp";
+import earphoneAmayaEarpodsImg from "@/assets/earphoes/amaya_earpods.webp";
+import earphoneAmayaImg from "@/assets/earphoes/Amaya_earphones.webp";
+import smartWatchBestImg from "@/assets/earphoes/smart_watch_best.webp";
+import smartWatchAmayaImg from "@/assets/earphoes/amaya_smart_watch.webp";
+import smartWatchLadiesImg from "@/assets/earphoes/smart_watch_ladies.webp";
+import smartWatchImg from "@/assets/earphoes/smart_watch.webp";
+import earphoneJblEarpodsImg from "@/assets/earphoes/jbl_earpods.webp";
+import earphoneOraimoNecklaceImg from "@/assets/earphoes/Oraimo_necklace_earphones.webp";
+import earphone650BlackImg from "@/assets/earphoes/oerphones-650-black.webp";
+import earphoneOraimoPodsImg from "@/assets/earphoes/oraimo_pods.webp";
+import carChargerImg from "@/assets/earphoes/car_charger.webp";
+import earphoneOraimoChargerImg from "@/assets/earphoes/oraimo_charer.webp";
+
+import headphoneP9JblImg from "@/assets/headphones/p9_jbl_headphones.webp";
+import headphoneP47Img from "@/assets/headphones/p47_headphones.webp";
+import headphoneP47Blue2Img from "@/assets/headphones/p47_blue-headphones (2).webp";
+import headphoneP47BlueImg from "@/assets/headphones/p47_blue-headphones.webp";
+import headphoneP9Headphoes2Img from "@/assets/headphones/p9_headphoes (2).webp";
+import headphoneP9HeadphoesImg from "@/assets/headphones/p9_headphoes.webp";
+import headphoneJblTuneImg from "@/assets/headphones/JBLTune670NC_Purple_1_600x.webp";
+import headphoneJblImg from "@/assets/headphones/jbl_headphones.webp";
+import headphoneOraimoEncImg from "@/assets/headphones/Oraimo20ENC20Wireless20OHP-610S.webp";
+import headphoneJblBlackImg from "@/assets/headphones/jbl_headphones_black.webp";
+import sonyWH1000XM4Img from "@/assets/headphones/Sony-WH-1000XM4-Headphones-a.jpg";
+
+import mouseWirelessImg from "@/assets/sd card/wireless_mouse.webp";
+import mouseBestWirelessImg from "@/assets/sd card/BEST-WIRELESS-MOUSE-9297-2x1-1.webp";
+import mouseWiredImg from "@/assets/sd card/mouse_wired.webp";
+import usbSandiskImg from "@/assets/sd card/sandisk_usb.webp";
+import usbAdvanceImg from "@/assets/sd card/advanve_usb.webp";
+import memoryCardAdapterImg from "@/assets/sd card/memory_card_adapter.webp";
+import memoryCardsImg from "@/assets/sd card/memory_cards.webp";
+
+export type Category =
+  | "Smartphones"
+  | "Accessories"
+  | "TVs"
+  | "Laptops"
+  | "Home Electronics"
+  | "Button Phones"
+  | "Speakers"
+  | "Home Theaters"
+  | "Headphones"
+  | "Earphones";
+
+export interface Product {
+  id: string;
+  name: string;
+  brand: string;
+  category: Category;
+  images: string[];
+  retailPrice: number;
+  wholesalePrice: number;
+  stock: number;
+  badge?: "Hot" | "New" | "Deal";
+  rating: number;
+  reviews: number;
+  description: string;
+}
+
+export const categories: { name: Category | "Cyber Services"; image: string; href: string; tag: string }[] = [
+  { name: "Smartphones", image: phones, href: "/shop?category=Smartphones", tag: "From KES 8,500" },
+  { name: "TVs", image: tvs, href: "/shop?category=TVs", tag: "24\" – 85\"" },
+  { name: "Laptops", image: laptops, href: "/shop?category=Laptops", tag: "For work & play" },
+  { name: "Accessories", image: cableBlackImg, href: "/shop?category=Accessories", tag: "Oraimo · JBL" },
+   { name: "Home Electronics", image: homeElectronicsImg, href: "/shop?category=Home Electronics", tag: "Kitchen & living" },
+  { name: "Button Phones", image: xtigiImg, href: "/shop?category=Button Phones", tag: "Reliable & durable" },
+  { name: "Speakers", image: bluetoothSpeakersImg, href: "/shop?category=Speakers", tag: "Sound quality" },
+   { name: "Home Theaters", image: homeTheaterImg, href: "/shop?category=Home Theaters", tag: "Movie experience" },
+  { name: "Headphones", image: headphoneJblTuneImg, href: "/shop?category=Headphones", tag: "Wireless & wired" },
+  { name: "Earphones", image: earphoneAmayaImg, href: "/shop?category=Earphones", tag: "Portable audio" },
+  { name: "Cyber Services", image: cyber, href: "/services", tag: "KRA · Printing" },
+];
+
+export const products: Product[] = [
+  {
+    id: "p1",
+    name: "Tecno Camon 30 Pro",
+    brand: "Tecno",
+    category: "Smartphones",
+    images: [tecnoImg],
+    retailPrice: 32999,
+    wholesalePrice: 29500,
+    stock: 14,
+    badge: "Hot",
+    rating: 4.7,
+    reviews: 128,
+    description: "6.78\" AMOLED, 50MP camera, 256GB storage. Premium daily driver.",
+  },
+  {
+    id: "p2",
+    name: "Samsung Galaxy A15",
+    brand: "Samsung",
+    category: "Smartphones",
+    images: [samsungGalaxyImg],
+    retailPrice: 18500,
+    wholesalePrice: 16800,
+    stock: 22,
+    rating: 4.5,
+    reviews: 86,
+    description: "Reliable mid-range with all-day battery and 50MP triple camera.",
+  },
+  {
+    id: "p3",
+    name: "Infinix Hot 40i",
+    brand: "Infinix",
+    category: "Smartphones",
+    images: [infinixImg],
+    retailPrice: 12999,
+    wholesalePrice: 11500,
+    stock: 35,
+    badge: "Deal",
+    rating: 4.4,
+    reviews: 210,
+    description: "Smooth performance, 5000mAh battery, perfect for everyday use.",
+  },
+  {
+    id: "p4",
+    name: "iPhone 13 (Refurbished)",
+    brand: "Apple",
+    category: "Smartphones",
+    images: [iphoneImg],
+    retailPrice: 65000,
+    wholesalePrice: 61000,
+    stock: 6,
+    badge: "New",
+    rating: 4.9,
+    reviews: 54,
+    description: "Certified refurbished iPhone 13, 128GB, 12-month warranty.",
+  },
+  {
+    id: "p5",
+    name: "Oraimo FreePods 4",
+    brand: "Oraimo",
+    category: "Accessories",
+    images: [accessories],
+    retailPrice: 3499,
+    wholesalePrice: 2900,
+    stock: 80,
+    badge: "Hot",
+    rating: 4.6,
+    reviews: 312,
+    description: "True wireless earbuds with ENC noise cancellation and 30h playtime.",
+  },
+  {
+    id: "p14",
+    name: "Ramtons Microwave 20L",
+    brand: "Ramtons",
+    category: "Home Electronics",
+    images: [microwaveImg],
+    retailPrice: 9499,
+    wholesalePrice: 8500,
+    stock: 16,
+    rating: 4.4,
+    reviews: 73,
+    description: "Compact microwave oven with 5 power levels.",
+  },
+  {
+    id: "p15",
+    name: "Mika Electric Kettle 1.7L",
+    brand: "Mika",
+    category: "Home Electronics",
+    images: [kettleImg],
+    retailPrice: 1899,
+    wholesalePrice: 1500,
+    stock: 60,
+    rating: 4.5,
+    reviews: 145,
+    description: "Cordless 360° kettle with auto shut-off and boil-dry protection.",
+  },
+  {
+    id: "p16",
+    name: "Von Blender 1.5L",
+    brand: "Von",
+    category: "Home Electronics",
+    images: [blender3Img],
+    retailPrice: 4299,
+    wholesalePrice: 3700,
+    stock: 25,
+    badge: "Deal",
+    rating: 4.3,
+    reviews: 58,
+    description: "Powerful 500W blender with shatterproof jar and ice crushing.",
+  },
+  {
+    id: "p7",
+    name: "JBL Go 3 Bluetooth Speaker",
+    brand: "JBL",
+    category: "Accessories",
+    images: [accessories],
+    retailPrice: 5499,
+    wholesalePrice: 4800,
+    stock: 40,
+    badge: "Deal",
+    rating: 4.8,
+    reviews: 156,
+    description: "Portable waterproof speaker with bold JBL Pro Sound.",
+  },
+  {
+    id: "p8",
+    name: "Amaya Type-C Fast Charger 25W",
+    brand: "Amaya",
+    category: "Accessories",
+    images: [accessories],
+    retailPrice: 899,
+    wholesalePrice: 650,
+    stock: 200,
+    rating: 4.3,
+    reviews: 92,
+    description: "PD fast charging adapter with USB-C cable included.",
+  },
+  {
+    id: "p9",
+    name: "Amaya 43\" Smart TV",
+    brand: "Amaya",
+    category: "TVs",
+    images: [tvs],
+    retailPrice: 28999,
+    wholesalePrice: 26500,
+    stock: 11,
+    badge: "Hot",
+    rating: 4.5,
+    reviews: 67,
+    description: "Full HD smart TV with built-in WiFi, YouTube and Netflix.",
+  },
+  {
+    id: "p12",
+    name: "HP 15 Core i5 Laptop",
+    brand: "HP",
+    category: "Laptops",
+    images: [hp15NotebookImg],
+    retailPrice: 78500,
+    wholesalePrice: 74000,
+    stock: 8,
+    rating: 4.6,
+    reviews: 38,
+    description: "11th Gen Core i5, 8GB RAM, 512GB SSD. Productivity ready.",
+  },
+  {
+    id: "p13",
+    name: "Lenovo ThinkPad E14",
+    brand: "Lenovo",
+    category: "Laptops",
+    images: [thinkpadLaptopImg],
+    retailPrice: 92000,
+    wholesalePrice: 88000,
+    stock: 4,
+    badge: "Deal",
+    rating: 4.7,
+    reviews: 22,
+    description: "Business-grade laptop with legendary ThinkPad keyboard.",
+  },
+  {
+    id: "p33",
+    name: "Dell Inspiron 15",
+    brand: "Dell",
+    category: "Laptops",
+    images: [dellLaptop],
+    retailPrice: 14999,
+    wholesalePrice: 13000,
+    stock: 12,
+    rating: 4.4,
+    reviews: 45,
+    description: "Affordable laptop for everyday computing and light tasks.",
+  },
+  {
+    id: "p34",
+    name: "Acer Aspire 5",
+    brand: "Acer",
+    category: "Laptops",
+    images: [acerLaptopImg],
+    retailPrice: 29999,
+    wholesalePrice: 9999,
+    stock: 8,
+    badge: "New",
+    rating: 4.5,
+    reviews: 32,
+    description: "Powerful performance laptop with sleek design for work and play.",
+  },
+  {
+    id: "p11",
+    name: "Hisense 55\" 4K UHD",
+    brand: "Hisense",
+    category: "TVs",
+    images: [hisenseTvImg],
+    retailPrice: 62000,
+    wholesalePrice: 58500,
+    stock: 5,
+    badge: "New",
+    rating: 4.8,
+    reviews: 41,
+    description: "Cinematic 4K UHD picture with Dolby Audio and smart features.",
+  },
+  {
+    id: "p20",
+    name: "Samsung 55\" 4K UHD TV",
+    brand: "Samsung",
+    category: "TVs",
+    images: [samsungTvImg],
+    retailPrice: 85000,
+    wholesalePrice: 80000,
+    stock: 8,
+    rating: 4.9,
+    reviews: 78,
+    description: "Premium 4K UHD TV with smart features and crystal clear display.",
+  },
+  {
+    id: "p21",
+    name: "LG 65\" OLED TV",
+    brand: "LG",
+    category: "TVs",
+    images: ["https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-13-5g-1.jpg"],
+    retailPrice: 120000,
+    wholesalePrice: 115000,
+    stock: 3,
+    badge: "Hot",
+    rating: 4.9,
+    reviews: 45,
+    description: "Stunning OLED display with perfect blacks and vibrant colors.",
+  },
+  {
+    id: "p22",
+    name: "Sony 43\" Full HD TV",
+    brand: "Sony",
+    category: "TVs",
+    images: [sonyTvImg],
+    retailPrice: 45000,
+    wholesalePrice: 42000,
+    stock: 12,
+    rating: 4.6,
+    reviews: 89,
+    description: "Reliable Full HD TV with excellent picture quality.",
+  },
+  {
+    id: "p23",
+    name: "Nokia 110 Feature Phone",
+    brand: "Nokia",
+    category: "Button Phones",
+    images: [nokia110Img],
+    retailPrice: 2500,
+    wholesalePrice: 2200,
+    stock: 45,
+    rating: 4.3,
+    reviews: 156,
+    description: "Classic button phone with long battery life and durable design.",
+  },
+  {
+    id: "p24",
+    name: "Samsung Guru Music 2",
+    brand: "Samsung",
+    category: "Button Phones",
+    images: [samsungB315Img],
+    retailPrice: 3200,
+    wholesalePrice: 2800,
+    stock: 32,
+    rating: 4.1,
+    reviews: 98,
+    description: "MP3 player with FM radio and dedicated music keys.",
+  },
+  {
+    id: "p71",
+    name: "itel Button Phone",
+    brand: "itel",
+    category: "Button Phones",
+    images: [itelButtonsImg],
+    retailPrice: 2200,
+    wholesalePrice: 1900,
+    stock: 40,
+    rating: 4.0,
+    reviews: 75,
+    description: "Affordable button phone with essential features and long battery life.",
+  },
+  {
+    id: "p72",
+    name: "X-Tigi Button Phone",
+    brand: "X-Tigi",
+    category: "Button Phones",
+    images: [xtigiImg],
+    retailPrice: 2400,
+    wholesalePrice: 2100,
+    stock: 35,
+    rating: 4.2,
+    reviews: 60,
+    description: "Reliable button phone with modern design and durability.",
+  },
+  {
+    id: "p25",
+    name: "JBL Go 3 Portable Speaker",
+    brand: "JBL",
+    category: "Speakers",
+    images: [bluetoothSpeakersImg],
+    retailPrice: 899,
+    wholesalePrice: 800,
+    stock: 28,
+    badge: "Deal",
+    rating: 4.8,
+    reviews: 312,
+    description: "Waterproof portable speaker with 5 hours playtime.",
+  },
+  {
+    id: "p26",
+    name: "Sony SRS-XB13 Speaker",
+    brand: "Sony",
+    category: "Speakers",
+    images: [stoneSpinSpeakerImg],
+    retailPrice: 999,
+    wholesalePrice: 900,
+    stock: 18,
+    rating: 4.6,
+    reviews: 187,
+    description: "Extra Bass wireless speaker with 16 hours battery life.",
+  },
+  {
+    id: "p77",
+    name: "Apollo Speaker",
+    brand: "Apollo",
+    category: "Speakers",
+    images: [apolloSpeakerImg],
+    retailPrice: 2999,
+    wholesalePrice: 2800,
+    stock: 15,
+    rating: 4.7,
+    reviews: 120,
+    description: "High-quality wireless speaker with excellent sound.",
+  },
+  {
+    id: "p78",
+    name: "Portable JBL Speaker",
+    brand: "JBL",
+    category: "Speakers",
+    images: [portableJblImg],
+    retailPrice: 8999,
+    wholesalePrice: 8500,
+    stock: 10,
+    rating: 4.9,
+    reviews: 200,
+    description: "Premium portable speaker with superior audio performance.",
+  },
+  {
+    id: "p73",
+    name: "Tagwood Home Theater",
+    brand: "Tagwood",
+    category: "Home Theaters",
+    images: [tagwoodImg],
+    retailPrice: 6999,
+    wholesalePrice: 6500,
+    stock: 10,
+    rating: 4.5,
+    reviews: 50,
+    description: "High-quality home theater system with immersive sound.",
+  },
+  {
+    id: "p74",
+    name: "Hoofer Home Theater",
+    brand: "Hoofer",
+    category: "Home Theaters",
+    images: [hooferImg],
+    retailPrice: 6999,
+    wholesalePrice: 6500,
+    stock: 10,
+    rating: 4.5,
+    reviews: 50,
+    description: "Premium home theater system for ultimate entertainment.",
+  },
+  {
+    id: "p75",
+    name: "Amtex Home Theater",
+    brand: "Amtex",
+    category: "Home Theaters",
+    images: [amtexImg],
+    retailPrice: 6999,
+    wholesalePrice: 6500,
+    stock: 10,
+    rating: 4.5,
+    reviews: 50,
+    description: "Advanced home theater with surround sound technology.",
+  },
+  {
+    id: "p76",
+    name: "Amtec Home Theater",
+    brand: "Amtec",
+    category: "Home Theaters",
+    images: [amtecImg],
+    retailPrice: 6999,
+    wholesalePrice: 6500,
+    stock: 10,
+    rating: 4.5,
+    reviews: 50,
+    description: "Reliable home theater system with excellent audio quality.",
+  },
+
+  {
+    id: "p29",
+    name: "Sony WH-1000XM4 Headphones",
+    brand: "Sony",
+    category: "Headphones",
+    images: [sonyWH1000XM4Img],
+    retailPrice: 3999,
+    wholesalePrice: 3500,
+    stock: 15,
+    badge: "Hot",
+    rating: 4.9,
+    reviews: 267,
+    description: "Industry-leading noise canceling wireless headphones.",
+  },
+
+
+
+  {
+    id: "p35",
+    name: "Aerial Wireless Charger",
+    brand: "Aerial",
+    category: "Accessories",
+    images: [aerialImg, aerial2Img],
+    retailPrice: 850,
+    wholesalePrice: 700,
+    stock: 50,
+    rating: 4.2,
+    reviews: 67,
+    description: "Fast wireless charging pad compatible with all Qi-enabled devices.",
+  },
+  {
+    id: "p36",
+    name: "Von High-Speed Blender",
+    brand: "Von",
+    category: "Home Electronics",
+    images: [blenderImg, blender2Img],
+    retailPrice: 2500,
+    wholesalePrice: 2200,
+    stock: 20,
+    rating: 4.4,
+    reviews: 89,
+    description: "Powerful 800W blender with multiple speed settings and ice crushing function.",
+  },
+  {
+    id: "p37",
+    name: "Water Dispenser Hot & Cold",
+    brand: "Ramtons",
+    category: "Home Electronics",
+    images: [dispenserImg],
+    retailPrice: 3500,
+    wholesalePrice: 3200,
+    stock: 15,
+    rating: 4.5,
+    reviews: 134,
+    description: "Hot and cold water dispenser with 18L capacity and child safety lock.",
+  },
+  {
+    id: "p38",
+    name: "Gas Banner Safety Valve",
+    brand: "Gas Banner",
+    category: "Home Electronics",
+    images: [gasBannerImg],
+    retailPrice: 500,
+    wholesalePrice: 400,
+    stock: 100,
+    rating: 4.1,
+    reviews: 45,
+    description: "Safety valve for gas cylinders with automatic shut-off feature.",
+  },
+  {
+    id: "p39",
+    name: "Ramtons Steam Iron",
+    brand: "Ramtons",
+    category: "Home Electronics",
+    images: [ironBoxImg],
+    retailPrice: 2000,
+    wholesalePrice: 1800,
+    stock: 30,
+    rating: 4.3,
+    reviews: 78,
+    description: "2200W steam iron with non-stick soleplate and adjustable steam control.",
+  },
+  {
+    id: "p40",
+    name: "Tender WiFi Router",
+    brand: "Tender",
+    category: "Accessories",
+    images: [tenderWifiImg],
+    retailPrice: 3750,
+    wholesalePrice: 3400,
+    stock: 25,
+    rating: 4.6,
+    reviews: 112,
+    description: "Dual-band WiFi router with 1200Mbps speed and 4 external antennas.",
+  },
+  {
+    id: "p41",
+    name: "LED Torch Light",
+    brand: "Oraimo",
+    category: "Accessories",
+    images: [torchImg, torch2Img],
+    retailPrice: 650,
+    wholesalePrice: 550,
+    stock: 80,
+    rating: 4.4,
+    reviews: 156,
+    description: "Rechargeable LED torch with 1000 lumen brightness and zoom function.",
+  },
+  {
+    id: "p45",
+    name: "Amaya USB Cable",
+    brand: "Amaya",
+    category: "Accessories",
+    images: [cableAmayaImg, cableAmaya2Img],
+    retailPrice: 250,
+    wholesalePrice: 200,
+    stock: 150,
+    rating: 4.3,
+    reviews: 89,
+    description: "Fast charging USB Type-C cable with 2.4A output.",
+  },
+  {
+    id: "p46",
+    name: "3-in-1 Cable Adapter",
+    brand: "Amaya",
+    category: "Accessories",
+    images: [cable3in1Img, cable3in1sImg],
+    retailPrice: 450,
+    wholesalePrice: 380,
+    stock: 100,
+    rating: 4.5,
+    reviews: 134,
+    description: "Multi-purpose 3-in-1 cable for USB-C, Lightning, and Micro-USB devices.",
+  },
+  {
+    id: "p47",
+    name: "Oraimo Fast Charging Cable",
+    brand: "Oraimo",
+    category: "Accessories",
+    images: [cableOraimoImg, cableOraimoWhiteImg],
+    retailPrice: 350,
+    wholesalePrice: 300,
+    stock: 120,
+    rating: 4.6,
+    reviews: 167,
+    description: "High-speed charging cable with braided design and LED indicator.",
+  },
+  {
+    id: "p48",
+    name: "Black USB Cable",
+    brand: "Generic",
+    category: "Accessories",
+    images: [cableBlackImg],
+    retailPrice: 150,
+    wholesalePrice: 120,
+    stock: 200,
+    rating: 4.1,
+    reviews: 45,
+    description: "Durable black USB charging cable for everyday use.",
+  },
+  {
+    id: "p49",
+    name: "White Amaya Cable",
+    brand: "Amaya",
+    category: "Accessories",
+    images: [cableWhiteAmayaImg],
+    retailPrice: 200,
+    wholesalePrice: 170,
+    stock: 90,
+    rating: 4.2,
+    reviews: 78,
+    description: "White USB cable with fast charging capability.",
+  },
+  {
+    id: "p50",
+    name: "Oraimo Wall Charger",
+    brand: "Oraimo",
+    category: "Accessories",
+    images: [chargerOraimoImg, chargerOraimoWhiteImg],
+    retailPrice: 800,
+    wholesalePrice: 700,
+    stock: 60,
+    rating: 4.5,
+    reviews: 112,
+    description: "18W fast wall charger with dual USB ports and foldable plug.",
+  },
+  {
+    id: "p51",
+    name: "Amaya Fast Charger",
+    brand: "Amaya",
+    category: "Accessories",
+    images: [chargerAmayaImg, chargerAmaya2Img],
+    retailPrice: 650,
+    wholesalePrice: 580,
+    stock: 75,
+    rating: 4.4,
+    reviews: 98,
+    description: "22W PD fast charger with USB-C and USB-A ports.",
+  },
+  {
+    id: "p52",
+    name: "Oraimo Wireless Earbuds",
+    brand: "Oraimo",
+    category: "Earphones",
+    images: [earphoneOraimoImg, earphoneOraimoWhiteImg],
+    retailPrice: 1200,
+    wholesalePrice: 1050,
+    stock: 40,
+    rating: 4.6,
+    reviews: 145,
+    description: "True wireless earbuds with 20h playtime and touch controls.",
+  },
+  {
+    id: "p53",
+    name: "Amaya Earphones",
+    brand: "Amaya",
+    category: "Earphones",
+    images: [earphoneAmayaImg, earphoneAmayaPodsImg, earphoneAmayaEarpodsImg],
+    retailPrice: 450,
+    wholesalePrice: 380,
+    stock: 80,
+    rating: 4.3,
+    reviews: 89,
+    description: "Wired earphones with mic and volume control.",
+  },
+  {
+    id: "p54",
+    name: "JBL Earbuds",
+    brand: "JBL",
+    category: "Earphones",
+    images: [earphoneJblPodsImg, earphoneJblEarpodsImg],
+    retailPrice: 1500,
+    wholesalePrice: 1350,
+    stock: 35,
+    rating: 4.7,
+    reviews: 167,
+    description: "Wireless earbuds with JBL signature sound and 24h battery.",
+  },
+  {
+    id: "p55",
+    name: "Oraimo Neckband Earphones",
+    brand: "Oraimo",
+    category: "Earphones",
+    images: [earphoneOraimoNecklaceImg],
+    retailPrice: 800,
+    wholesalePrice: 720,
+    stock: 55,
+    rating: 4.5,
+    reviews: 112,
+    description: "Neckband wireless earphones with 12h playtime.",
+  },
+  {
+    id: "p56",
+    name: "Black Wired Earphones",
+    brand: "Generic",
+    category: "Earphones",
+    images: [earphone650BlackImg],
+    retailPrice: 300,
+    wholesalePrice: 250,
+    stock: 120,
+    rating: 4.1,
+    reviews: 78,
+    description: "Basic wired earphones with mic and controls.",
+  },
+  {
+    id: "p57",
+    name: "Oraimo True Wireless Pods",
+    brand: "Oraimo",
+    category: "Earphones",
+    images: [earphoneOraimoPodsImg],
+    retailPrice: 1100,
+    wholesalePrice: 980,
+    stock: 45,
+    rating: 4.4,
+    reviews: 134,
+    description: "Compact true wireless earbuds with charging case.",
+  },
+  {
+    id: "p58",
+    name: "Smart Watch",
+    brand: "Amaya",
+    category: "Accessories",
+    images: [smartWatchImg, smartWatchAmayaImg, smartWatchLadiesImg, smartWatchBestImg],
+    retailPrice: 1800,
+    wholesalePrice: 1600,
+    stock: 30,
+    rating: 4.5,
+    reviews: 98,
+    description: "Fitness smartwatch with heart rate monitor and GPS.",
+  },
+  {
+    id: "p59",
+    name: "Car Charger",
+    brand: "Oraimo",
+    category: "Accessories",
+    images: [carChargerImg, earphoneOraimoChargerImg],
+    retailPrice: 400,
+    wholesalePrice: 350,
+    stock: 70,
+    rating: 4.2,
+    reviews: 56,
+    description: "Dual USB car charger for fast charging on the go.",
+  },
+  {
+    id: "p60",
+    name: "JBL P9 Headphones",
+    brand: "JBL",
+    category: "Headphones",
+    images: [headphoneP9JblImg, headphoneP9HeadphoesImg, headphoneP9Headphoes2Img],
+    retailPrice: 2200,
+    wholesalePrice: 1950,
+    stock: 25,
+    rating: 4.8,
+    reviews: 134,
+    description: "Wireless over-ear headphones with 30h battery and noise cancellation.",
+  },
+  {
+    id: "p61",
+    name: "P47 Blue Headphones",
+    brand: "Generic",
+    category: "Headphones",
+    images: [headphoneP47BlueImg, headphoneP47Blue2Img],
+    retailPrice: 1500,
+    wholesalePrice: 1350,
+    stock: 40,
+    rating: 4.4,
+    reviews: 89,
+    description: "Comfortable wireless headphones with deep bass.",
+  },
+  {
+    id: "p62",
+    name: "P47 Headphones",
+    brand: "Generic",
+    category: "Headphones",
+    images: [headphoneP47Img],
+    retailPrice: 1200,
+    wholesalePrice: 1050,
+    stock: 50,
+    rating: 4.3,
+    reviews: 67,
+    description: "Basic wired headphones with good sound quality.",
+  },
+  {
+    id: "p63",
+    name: "JBL Tune 670NC",
+    brand: "JBL",
+    category: "Headphones",
+    images: [headphoneJblTuneImg],
+    retailPrice: 2800,
+    wholesalePrice: 2500,
+    stock: 20,
+    rating: 4.7,
+    reviews: 156,
+    description: "Wireless noise-canceling headphones with premium comfort.",
+  },
+  {
+    id: "p64",
+    name: "JBL Headphones",
+    brand: "JBL",
+    category: "Headphones",
+    images: [headphoneJblImg, headphoneJblBlackImg],
+    retailPrice: 2000,
+    wholesalePrice: 1800,
+    stock: 35,
+    rating: 4.6,
+    reviews: 112,
+    description: "Classic JBL wireless headphones with signature sound.",
+  },
+  {
+    id: "p65",
+    name: "Oraimo ENC Wireless Headphones",
+    brand: "Oraimo",
+    category: "Headphones",
+    images: [headphoneOraimoEncImg],
+    retailPrice: 1800,
+    wholesalePrice: 1600,
+    stock: 30,
+    rating: 4.5,
+    reviews: 98,
+    description: "Active noise-canceling wireless headphones with 25h battery.",
+  },
+  {
+    id: "p66",
+    name: "Wireless Mouse",
+    brand: "Generic",
+    category: "Accessories",
+    images: [mouseWirelessImg, mouseBestWirelessImg],
+    retailPrice: 600,
+    wholesalePrice: 500,
+    stock: 80,
+    rating: 4.3,
+    reviews: 145,
+    description: "Ergonomic wireless mouse with 2.4GHz connectivity and long battery life.",
+  },
+  {
+    id: "p67",
+    name: "Wired Mouse",
+    brand: "Generic",
+    category: "Accessories",
+    images: [mouseWiredImg],
+    retailPrice: 300,
+    wholesalePrice: 250,
+    stock: 120,
+    rating: 4.1,
+    reviews: 89,
+    description: "Reliable wired mouse with USB connection.",
+  },
+  {
+    id: "p68",
+    name: "SanDisk USB Drive 32GB",
+    brand: "SanDisk",
+    category: "Accessories",
+    images: [usbSandiskImg],
+    retailPrice: 800,
+    wholesalePrice: 700,
+    stock: 60,
+    rating: 4.6,
+    reviews: 112,
+    description: "High-speed USB 3.0 flash drive with 32GB capacity.",
+  },
+  {
+    id: "p69",
+    name: "Advance USB Drive 64GB",
+    brand: "Advance",
+    category: "Accessories",
+    images: [usbAdvanceImg],
+    retailPrice: 1200,
+    wholesalePrice: 1050,
+    stock: 45,
+    rating: 4.4,
+    reviews: 78,
+    description: "Compact USB flash drive with 64GB storage and keychain.",
+  },
+  {
+    id: "p70",
+    name: "Memory Card Adapter",
+    brand: "Generic",
+    category: "Accessories",
+    images: [memoryCardAdapterImg, memoryCardsImg],
+    retailPrice: 150,
+    wholesalePrice: 120,
+    stock: 150,
+    rating: 4.2,
+    reviews: 56,
+    description: "SD card to USB adapter for easy data transfer.",
+  },
+  {
+    id: "p42",
+    name: "HP Pavilion 14 Laptop",
+    brand: "HP",
+    category: "Laptops",
+    images: [hpLaptop],
+    retailPrice: 55000,
+    wholesalePrice: 52000,
+    stock: 10,
+    rating: 4.5,
+    reviews: 67,
+    description: "14\" Full HD laptop with Intel Core i5, 8GB RAM, 512GB SSD.",
+  },
+  {
+    id: "p43",
+    name: "Dell Inspiron 15 3000",
+    brand: "Dell",
+    category: "Laptops",
+    images: [dellLaptop],
+    retailPrice: 45000,
+    wholesalePrice: 42000,
+    stock: 12,
+    rating: 4.4,
+    reviews: 89,
+    description: "15.6\" HD laptop with AMD Ryzen 5, 8GB RAM, 256GB SSD.",
+  },
+  {
+    id: "p44",
+    name: "Lenovo IdeaPad 3",
+    brand: "Lenovo",
+    category: "Laptops",
+    images: [lenovoLaptopImg],
+    retailPrice: 35000,
+    wholesalePrice: 32000,
+    stock: 15,
+    rating: 4.3,
+    reviews: 134,
+    description: "15.6\" laptop with AMD Ryzen 3, 8GB RAM, 512GB SSD for everyday use.",
+  },
+];
+
+export const brands = Array.from(new Set(products.map((p) => p.brand))).sort();
+export const allCategories: Category[] = [
+  "Smartphones",
+  "Accessories",
+  "TVs",
+  "Laptops",
+  "Home Electronics",
+  "Button Phones",
+  "Speakers",
+  "Home Theaters",
+  "Headphones",
+  "Earphones",
+];
+
+export const services = [
+  {
+    name: "Printing (B&W / Color)",
+    description: "Documents, photos, posters up to A3 size.",
+    price: "From KES 10/page",
+  },
+  {
+    name: "Photocopying",
+    description: "Single & double-sided. Bulk discounts available.",
+    price: "From KES 5/page",
+  },
+  {
+    name: "KRA Services",
+    description: "PIN registration, returns filing, TCC applications.",
+    price: "From KES 200",
+  },
+  {
+    name: "E-Citizen & Online Applications",
+    description: "Passport, ID, driving license, NTSA, HELB & more.",
+    price: "From KES 150",
+  },
+  {
+    name: "Lamination & Binding",
+    description: "A4/A3 lamination, spiral & comb binding.",
+    price: "From KES 50",
+  },
+  {
+    name: "Internet Browsing",
+    description: "High-speed fiber browsing in a comfortable space.",
+    price: "KES 1/min",
+  },
+  {
+    name: "Typesetting & Design",
+    description: "CVs, business cards, flyers, posters.",
+    price: "From KES 300",
+  },
+  {
+    name: "M-Pesa & Money Transfer",
+    description: "Deposit, withdraw, and transfer with ease.",
+    price: "Standard rates",
+  },
+];
+
+export const formatKES = (n: number) =>
+  new Intl.NumberFormat("en-KE", { style: "currency", currency: "KES", maximumFractionDigits: 0 }).format(n);
