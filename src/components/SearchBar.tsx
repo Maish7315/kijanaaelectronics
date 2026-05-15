@@ -71,7 +71,7 @@ export const SearchBar = ({ onClose }: { onClose?: () => void }) => {
                   }}
                   className="flex items-center gap-3 px-3 py-2.5 hover:bg-accent transition-smooth"
                 >
-                  <img src={p.image} alt="" className="size-10 rounded-lg object-cover bg-muted" loading="lazy" />
+                  <img src={p.images[0]} alt="" className="size-10 rounded-lg object-cover bg-muted" loading="lazy" />
                   <div className="flex-1 min-w-0">
                     <div className="text-sm font-semibold truncate">{p.name}</div>
                     <div className="text-xs text-muted-foreground">{p.brand} · {p.category}</div>
