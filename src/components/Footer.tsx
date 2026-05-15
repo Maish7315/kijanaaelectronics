@@ -31,7 +31,7 @@ export const Footer = () => {
                 Flash sales, new arrivals & wholesale offers — once a week, no spam.
               </p>
             </div>
-            <form onSubmit={onSubscribe} className="w-full lg:w-auto flex gap-2">
+            <form onSubmit={onSubscribe} className="w-full lg:w-auto flex flex-col lg:flex-row gap-2">
               <input
                 name="email"
                 type="email"
@@ -39,9 +39,9 @@ export const Footer = () => {
                 placeholder="you@example.com"
                 aria-label="Email"
                 maxLength={120}
-                className="flex-1 lg:w-72 h-12 px-4 rounded-xl bg-secondary border border-border focus:border-primary outline-none text-sm"
+                className="w-full lg:w-72 h-12 px-4 rounded-xl bg-secondary border border-border focus:border-primary outline-none text-sm"
               />
-              <Button type="submit" variant="plasma" size="lg">
+              <Button type="submit" variant="plasma" size="lg" className="w-full lg:w-auto">
                 Subscribe
               </Button>
             </form>
