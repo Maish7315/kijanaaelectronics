@@ -123,6 +123,7 @@ export interface Product {
   rating: number;
   reviews: number;
   description: string;
+  warranty: boolean;
 }
 
 export const categories: { name: Category | "Cyber Services"; image: string; href: string; tag: string }[] = [
@@ -153,6 +154,7 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 128,
     description: "6.78\" AMOLED, 50MP camera, 256GB storage. Premium daily driver.",
+    warranty: true,
   },
   {
     id: "p2",
@@ -166,6 +168,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 86,
     description: "Reliable mid-range with all-day battery and 50MP triple camera.",
+    warranty: true,
   },
   {
     id: "p3",
@@ -180,6 +183,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 210,
     description: "Smooth performance, 5000mAh battery, perfect for everyday use.",
+    warranty: true,
   },
   {
     id: "p4",
@@ -194,6 +198,7 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 54,
     description: "Certified refurbished iPhone 13, 128GB, 12-month warranty.",
+    warranty: true,
   },
   {
     id: "p5",
@@ -208,6 +213,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 312,
     description: "True wireless earbuds with ENC noise cancellation and 30h playtime.",
+    warranty: false,
   },
   {
     id: "p14",
@@ -221,6 +227,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 73,
     description: "Compact microwave oven with 5 power levels.",
+    warranty: true,
   },
   {
     id: "p15",
@@ -234,6 +241,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 145,
     description: "Cordless 360° kettle with auto shut-off and boil-dry protection.",
+    warranty: true,
   },
   {
     id: "p16",
@@ -248,6 +256,7 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 58,
     description: "Powerful 500W blender with shatterproof jar and ice crushing.",
+    warranty: true,
   },
   {
     id: "p7",
@@ -262,6 +271,7 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 156,
     description: "Portable waterproof speaker with bold JBL Pro Sound.",
+    warranty: false,
   },
   {
     id: "p8",
@@ -275,6 +285,7 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 92,
     description: "PD fast charging adapter with USB-C cable included.",
+    warranty: false,
   },
   {
     id: "p9",
@@ -289,6 +300,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 67,
     description: "Full HD smart TV with built-in WiFi, YouTube and Netflix.",
+    warranty: true,
   },
   {
     id: "p12",
@@ -302,6 +314,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 38,
     description: "11th Gen Core i5, 8GB RAM, 512GB SSD. Productivity ready.",
+    warranty: true,
   },
   {
     id: "p13",
@@ -316,6 +329,7 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 22,
     description: "Business-grade laptop with legendary ThinkPad keyboard.",
+    warranty: true,
   },
   {
     id: "p33",
@@ -329,6 +343,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 45,
     description: "Affordable laptop for everyday computing and light tasks.",
+    warranty: true,
   },
   {
     id: "p34",
@@ -343,6 +358,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 32,
     description: "Powerful performance laptop with sleek design for work and play.",
+    warranty: true,
   },
   {
     id: "p11",
@@ -357,6 +373,7 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 41,
     description: "Cinematic 4K UHD picture with Dolby Audio and smart features.",
+    warranty: true,
   },
   {
     id: "p20",
@@ -370,6 +387,7 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 78,
     description: "Premium 4K UHD TV with smart features and crystal clear display.",
+    warranty: true,
   },
   {
     id: "p21",
@@ -384,6 +402,7 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 45,
     description: "Stunning OLED display with perfect blacks and vibrant colors.",
+    warranty: true,
   },
   {
     id: "p22",
@@ -397,6 +416,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 89,
     description: "Reliable Full HD TV with excellent picture quality.",
+    warranty: true,
   },
   {
     id: "p23",
@@ -410,6 +430,7 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 156,
     description: "Classic button phone with long battery life and durable design.",
+    warranty: true,
   },
   {
     id: "p24",
@@ -423,6 +444,7 @@ export const products: Product[] = [
     rating: 4.1,
     reviews: 98,
     description: "MP3 player with FM radio and dedicated music keys.",
+    warranty: true,
   },
   {
     id: "p71",
@@ -436,6 +458,7 @@ export const products: Product[] = [
     rating: 4.0,
     reviews: 75,
     description: "Affordable button phone with essential features and long battery life.",
+    warranty: true,
   },
   {
     id: "p72",
@@ -449,6 +472,7 @@ export const products: Product[] = [
     rating: 4.2,
     reviews: 60,
     description: "Reliable button phone with modern design and durability.",
+    warranty: true,
   },
   {
     id: "p25",
@@ -463,6 +487,7 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 312,
     description: "Waterproof portable speaker with 5 hours playtime.",
+    warranty: true,
   },
   {
     id: "p26",
@@ -476,6 +501,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 187,
     description: "Extra Bass wireless speaker with 16 hours battery life.",
+    warranty: true,
   },
   {
     id: "p77",
@@ -489,6 +515,7 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 120,
     description: "High-quality wireless speaker with excellent sound.",
+    warranty: true,
   },
   {
     id: "p78",
@@ -502,6 +529,7 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 200,
     description: "Premium portable speaker with superior audio performance.",
+    warranty: true,
   },
   {
     id: "p73",
@@ -515,6 +543,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 50,
     description: "High-quality home theater system with immersive sound.",
+    warranty: true,
   },
   {
     id: "p74",
@@ -528,6 +557,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 50,
     description: "Premium home theater system for ultimate entertainment.",
+    warranty: true,
   },
   {
     id: "p75",
@@ -541,6 +571,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 50,
     description: "Advanced home theater with surround sound technology.",
+    warranty: true,
   },
   {
     id: "p76",
@@ -554,6 +585,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 50,
     description: "Reliable home theater system with excellent audio quality.",
+    warranty: true,
   },
 
   {
@@ -569,6 +601,7 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 267,
     description: "Industry-leading noise canceling wireless headphones.",
+    warranty: true,
   },
 
 
@@ -585,6 +618,7 @@ export const products: Product[] = [
     rating: 4.2,
     reviews: 67,
     description: "Fast wireless charging pad compatible with all Qi-enabled devices.",
+    warranty: false,
   },
   {
     id: "p36",
@@ -598,6 +632,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 89,
     description: "Powerful 800W blender with multiple speed settings and ice crushing function.",
+    warranty: true,
   },
   {
     id: "p37",
@@ -611,6 +646,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 134,
     description: "Hot and cold water dispenser with 18L capacity and child safety lock.",
+    warranty: true,
   },
   {
     id: "p38",
@@ -624,6 +660,7 @@ export const products: Product[] = [
     rating: 4.1,
     reviews: 45,
     description: "Safety valve for gas cylinders with automatic shut-off feature.",
+    warranty: true,
   },
   {
     id: "p39",
@@ -637,6 +674,7 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 78,
     description: "2200W steam iron with non-stick soleplate and adjustable steam control.",
+    warranty: true,
   },
   {
     id: "p40",
@@ -650,6 +688,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 112,
     description: "Dual-band WiFi router with 1200Mbps speed and 4 external antennas.",
+    warranty: false,
   },
   {
     id: "p41",
@@ -663,6 +702,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 156,
     description: "Rechargeable LED torch with 1000 lumen brightness and zoom function.",
+    warranty: false,
   },
   {
     id: "p45",
@@ -676,6 +716,7 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 89,
     description: "Fast charging USB Type-C cable with 2.4A output.",
+    warranty: false,
   },
   {
     id: "p46",
@@ -689,6 +730,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 134,
     description: "Multi-purpose 3-in-1 cable for USB-C, Lightning, and Micro-USB devices.",
+    warranty: false,
   },
   {
     id: "p47",
@@ -702,6 +744,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 167,
     description: "High-speed charging cable with braided design and LED indicator.",
+    warranty: false,
   },
   {
     id: "p48",
@@ -715,6 +758,7 @@ export const products: Product[] = [
     rating: 4.1,
     reviews: 45,
     description: "Durable black USB charging cable for everyday use.",
+    warranty: false,
   },
   {
     id: "p49",
@@ -728,6 +772,7 @@ export const products: Product[] = [
     rating: 4.2,
     reviews: 78,
     description: "White USB cable with fast charging capability.",
+    warranty: false,
   },
   {
     id: "p50",
@@ -741,6 +786,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 112,
     description: "18W fast wall charger with dual USB ports and foldable plug.",
+    warranty: false,
   },
   {
     id: "p51",
@@ -754,6 +800,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 98,
     description: "22W PD fast charger with USB-C and USB-A ports.",
+    warranty: false,
   },
   {
     id: "p52",
@@ -767,6 +814,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 145,
     description: "True wireless earbuds with 20h playtime and touch controls.",
+    warranty: true,
   },
   {
     id: "p53",
@@ -780,6 +828,7 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 89,
     description: "Wired earphones with mic and volume control.",
+    warranty: true,
   },
   {
     id: "p54",
@@ -793,6 +842,7 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 167,
     description: "Wireless earbuds with JBL signature sound and 24h battery.",
+    warranty: true,
   },
   {
     id: "p55",
@@ -806,6 +856,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 112,
     description: "Neckband wireless earphones with 12h playtime.",
+    warranty: true,
   },
   {
     id: "p56",
@@ -819,6 +870,7 @@ export const products: Product[] = [
     rating: 4.1,
     reviews: 78,
     description: "Basic wired earphones with mic and controls.",
+    warranty: true,
   },
   {
     id: "p57",
@@ -832,6 +884,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 134,
     description: "Compact true wireless earbuds with charging case.",
+    warranty: true,
   },
   {
     id: "p58",
@@ -845,6 +898,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 98,
     description: "Fitness smartwatch with heart rate monitor and GPS.",
+    warranty: false,
   },
   {
     id: "p59",
@@ -858,6 +912,7 @@ export const products: Product[] = [
     rating: 4.2,
     reviews: 56,
     description: "Dual USB car charger for fast charging on the go.",
+    warranty: false,
   },
   {
     id: "p60",
@@ -871,6 +926,7 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 134,
     description: "Wireless over-ear headphones with 30h battery and noise cancellation.",
+    warranty: true,
   },
   {
     id: "p61",
@@ -884,6 +940,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 89,
     description: "Comfortable wireless headphones with deep bass.",
+    warranty: true,
   },
   {
     id: "p62",
@@ -897,6 +954,7 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 67,
     description: "Basic wired headphones with good sound quality.",
+    warranty: true,
   },
   {
     id: "p63",
@@ -910,6 +968,7 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 156,
     description: "Wireless noise-canceling headphones with premium comfort.",
+    warranty: true,
   },
   {
     id: "p64",
@@ -923,6 +982,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 112,
     description: "Classic JBL wireless headphones with signature sound.",
+    warranty: true,
   },
   {
     id: "p65",
@@ -936,6 +996,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 98,
     description: "Active noise-canceling wireless headphones with 25h battery.",
+    warranty: true,
   },
   {
     id: "p66",
@@ -949,6 +1010,7 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 145,
     description: "Ergonomic wireless mouse with 2.4GHz connectivity and long battery life.",
+    warranty: false,
   },
   {
     id: "p67",
@@ -962,6 +1024,7 @@ export const products: Product[] = [
     rating: 4.1,
     reviews: 89,
     description: "Reliable wired mouse with USB connection.",
+    warranty: false,
   },
   {
     id: "p68",
@@ -975,6 +1038,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 112,
     description: "High-speed USB 3.0 flash drive with 32GB capacity.",
+    warranty: false,
   },
   {
     id: "p69",
@@ -988,6 +1052,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 78,
     description: "Compact USB flash drive with 64GB storage and keychain.",
+    warranty: false,
   },
   {
     id: "p70",
@@ -1001,6 +1066,7 @@ export const products: Product[] = [
     rating: 4.2,
     reviews: 56,
     description: "SD card to USB adapter for easy data transfer.",
+    warranty: false,
   },
   {
     id: "p42",
@@ -1014,6 +1080,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 67,
     description: "14\" Full HD laptop with Intel Core i5, 8GB RAM, 512GB SSD.",
+    warranty: true,
   },
   {
     id: "p43",
@@ -1027,6 +1094,7 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 89,
     description: "15.6\" HD laptop with AMD Ryzen 5, 8GB RAM, 256GB SSD.",
+    warranty: true,
   },
   {
     id: "p44",
@@ -1040,6 +1108,7 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 134,
     description: "15.6\" laptop with AMD Ryzen 3, 8GB RAM, 512GB SSD for everyday use.",
+    warranty: true,
   },
 ];
 
@@ -1061,44 +1130,54 @@ export const services = [
   {
     name: "Printing (B&W / Color)",
     description: "Documents, photos, posters up to A3 size.",
+    warranty: true,
     price: "From KES 10/page",
   },
   {
     name: "Photocopying",
     description: "Single & double-sided. Bulk discounts available.",
+    warranty: true,
     price: "From KES 5/page",
   },
   {
     name: "KRA Services",
     description: "PIN registration, returns filing, TCC applications.",
+    warranty: true,
     price: "From KES 200",
   },
   {
     name: "E-Citizen & Online Applications",
     description: "Passport, ID, driving license, NTSA, HELB & more.",
+    warranty: true,
     price: "From KES 150",
   },
   {
     name: "Lamination & Binding",
     description: "A4/A3 lamination, spiral & comb binding.",
+    warranty: true,
     price: "From KES 50",
   },
   {
     name: "Internet Browsing",
     description: "High-speed fiber browsing in a comfortable space.",
+    warranty: true,
     price: "KES 1/min",
   },
   {
     name: "Typesetting & Design",
     description: "CVs, business cards, flyers, posters.",
+    warranty: true,
     price: "From KES 300",
   },
   {
     name: "M-Pesa & Money Transfer",
     description: "Deposit, withdraw, and transfer with ease.",
+    warranty: true,
     price: "Standard rates",
   },
 ];
 
 export const formatKES = (n: number) =>
   new Intl.NumberFormat("en-KE", { style: "currency", currency: "KES", maximumFractionDigits: 0 }).format(n);
+
+

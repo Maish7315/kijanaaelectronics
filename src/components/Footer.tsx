@@ -48,7 +48,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-10">
           <div>
             <Logo className="h-12" />
             <p className="mt-4 text-sm text-muted-foreground max-w-xs">
@@ -104,6 +104,15 @@ export const Footer = () => {
                 <Mail className="size-4 mt-0.5 text-primary shrink-0" />
                 <a href="mailto:kijanaacyber@gmail.com" className="hover:text-primary">kijanaacyber@gmail.com</a>
               </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider">Policies</h4>
+            <ul className="space-y-2.5 text-sm text-muted-foreground">
+              <li><strong>Warranty:</strong> Retail items come with warranty. Wholesale items do not.</li>
+              <li><strong>Returns:</strong> 5-7 days return policy.</li>
+              <li><strong>Delivery:</strong> Nationwide. Contact agent via WhatsApp for details.</li>
             </ul>
           </div>
         </div>

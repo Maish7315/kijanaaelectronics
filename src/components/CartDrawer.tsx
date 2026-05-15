@@ -38,7 +38,7 @@ export const CartDrawer = () => {
                 const price = i.wholesale ? i.product.wholesalePrice : i.product.retailPrice;
                 return (
                   <div key={i.product.id + (i.wholesale ? "w" : "r")} className="flex gap-3">
-                    <img src={i.product.image} alt="" className="size-20 rounded-xl object-cover bg-muted shrink-0" />
+                    <img src={i.product.image} alt={i.product.name} loading="lazy" className="size-16 sm:size-20 rounded-xl object-cover bg-muted shrink-0" />
                     <div className="flex-1 min-w-0">
                       <div className="flex items-start justify-between gap-2">
                         <Link to={`/product/${i.product.id}`} onClick={() => setOpen(false)} className="text-sm font-semibold leading-snug line-clamp-2 hover:text-primary">

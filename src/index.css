@@ -137,6 +137,11 @@
     @apply border-border;
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   html {
     scroll-behavior: smooth;
   }
@@ -145,11 +150,32 @@
     @apply bg-background text-foreground antialiased;
     font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
     font-feature-settings: 'cv11', 'ss01';
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4 {
     font-family: 'Sora', 'Plus Jakarta Sans', sans-serif;
     letter-spacing: -0.02em;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+  }
+
+  h3 {
+    font-size: clamp(1.25rem, 3vw, 2.25rem);
+  }
+
+  h4 {
+    font-size: clamp(1.125rem, 2.5vw, 1.875rem);
+  }
+
+  p, span, div {
+    font-size: clamp(0.875rem, 2vw, 1.125rem);
   }
 }
 

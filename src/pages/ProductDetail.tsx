@@ -40,21 +40,21 @@ const ProductDetail = () => {
 
       <div className="grid lg:grid-cols-2 gap-10 lg:gap-16">
         <div className="space-y-4">
-          <div className="rounded-3xl bg-card border border-border overflow-hidden aspect-square">
-            <img src={product.images[selectedImageIndex]} alt={product.name} className="w-full h-full object-cover" />
+          <div className="rounded-3xl bg-card border border-border overflow-hidden aspect-square max-h-96 sm:max-h-none">
+            <img src={product.images[selectedImageIndex]} alt={product.name} loading="lazy" className="w-full h-full object-cover" />
           </div>
           {product.images.length > 1 && (
             <div className="grid grid-cols-4 gap-2">
               {product.images.map((img, i) => (
-                <button
-                  key={i}
-                  onClick={() => setSelectedImageIndex(i)}
-                  className={`rounded-xl border-2 overflow-hidden aspect-square ${
-                    selectedImageIndex === i ? 'border-primary' : 'border-border'
-                  }`}
-                >
-                  <img src={img} alt={`${product.name} ${i + 1}`} className="w-full h-full object-cover" />
-                </button>
+                  <button
+                    key={i}
+                    onClick={() => setSelectedImageIndex(i)}
+                    className={`rounded-xl border-2 overflow-hidden aspect-square ${
+                      selectedImageIndex === i ? 'border-primary' : 'border-border'
+                    }`}
+                  >
+                    <img src={img} alt={`${product.name} ${i + 1}`} loading="lazy" className="w-full h-full object-cover" />
+                  </button>
               ))}
             </div>
           )}
@@ -95,7 +95,7 @@ const ProductDetail = () => {
 
           <p className="text-foreground/90 mb-6 leading-relaxed">{product.description}</p>
 
-          <div className="flex items-center gap-3 mb-6">
+          <div className="flex flex-col gap-3 mb-6 sm:flex-row sm:items-center">
             <div className="inline-flex items-center border border-border rounded-xl">
               <button onClick={() => setQty((q) => Math.max(1, q - 1))} className="size-11 hover:bg-accent">−</button>
               <span className="w-12 text-center font-bold">{qty}</span>
@@ -104,7 +104,7 @@ const ProductDetail = () => {
             <Button
               variant="outline"
               size="lg"
-              className="flex-1"
+              className="w-full"
               disabled={product.stock === 0}
               onClick={() => {
                 add(product, { qty, wholesale });
@@ -117,7 +117,7 @@ const ProductDetail = () => {
             <Button
               variant="plasma"
               size="lg"
-              className="flex-1"
+              className="w-full"
               disabled={product.stock === 0}
               onClick={() => {
                 add(product, { qty, wholesale });
@@ -128,14 +128,17 @@ const ProductDetail = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-2 gap-3 text-sm">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
             <div className="flex items-center gap-2 p-3 rounded-xl bg-secondary">
               <Truck className="size-4 text-primary" />
-              <span>Nationwide delivery</span>
+              <span>Delivery: Talk to agent via WhatsApp</span>
             </div>
             <div className="flex items-center gap-2 p-3 rounded-xl bg-secondary">
               <ShieldCheck className="size-4 text-primary" />
-              <span>Genuine + warranty</span>
+              <span>Genuine{product.warranty ? " + warranty" : ""}</span>
+            </div>
+            <div className="flex items-center gap-2 p-3 rounded-xl bg-secondary">
+              <span className="font-medium">Returns: 5-7 days</span>
             </div>
           </div>
         </div>

@@ -151,7 +151,7 @@ const Checkout = () => {
               const price = i.wholesale ? i.product.wholesalePrice : i.product.retailPrice;
               return (
                 <div key={i.product.id + (i.wholesale ? "w" : "r")} className="flex gap-3">
-                  <img src={i.product.image} alt="" className="size-14 rounded-lg object-cover bg-muted shrink-0" />
+                  <img src={i.product.image} alt={i.product.name} loading="lazy" className="size-12 sm:size-14 rounded-lg object-cover bg-muted shrink-0" />
                   <div className="flex-1 min-w-0">
                     <div className="text-sm font-semibold truncate">{i.product.name}</div>
                     <div className="text-xs text-muted-foreground">Qty {i.qty}{i.wholesale && " · Wholesale"}</div>

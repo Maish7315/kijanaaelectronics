@@ -52,15 +52,16 @@ export const Hero = () => (
       <div className="relative animate-fade-up" style={{ animationDelay: "0.1s" }}>
         <div className="relative aspect-square max-w-md mx-auto">
           <div className="absolute inset-0 bg-plasma rounded-[2rem] blur-2xl opacity-40 animate-pulse-glow" />
-          <div className="relative aspect-square rounded-[2rem] overflow-hidden glass shadow-elegant">
-            <img
-              src={heroImg}
-              alt="Premium electronics: smartphone, smartwatch and earbuds"
-              width={1024}
-              height={1024}
-              className="w-full h-full object-cover"
-            />
-          </div>
+            <div className="relative aspect-square rounded-[2rem] overflow-hidden glass shadow-elegant">
+              <img
+                src={heroImg}
+                alt="Premium electronics: smartphone, smartwatch and earbuds"
+                width={1024}
+                height={1024}
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+            </div>
           {/* Floating chip */}
           <div className="absolute -bottom-4 -left-4 glass rounded-2xl px-5 py-3 shadow-elegant animate-float">
             <div className="text-2xl font-display font-bold text-primary">100%</div>
